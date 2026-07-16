@@ -80,3 +80,9 @@ button:hover {
 .card h3 {
     color: #2563eb;
 }
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
