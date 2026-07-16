@@ -96,3 +96,17 @@ button:hover {
 .card {
   width: 250px;
 }
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
