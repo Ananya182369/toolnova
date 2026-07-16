@@ -69,14 +69,21 @@ button:hover {
     background: #1d4ed8;
 }
 .card {
-    background: white;
-    width: 320px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    .card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  text-align: center;
+  border: 2px solid #2563eb;
 }
 
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
 .card h3 {
     color: #2563eb;
 }
