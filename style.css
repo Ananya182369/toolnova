@@ -28,3 +28,18 @@ footer{text-align:center;padding:20px;background:#111;color:#fff;margin-top:40px
 #searchInput:focus{
     box-shadow:0 5px 25px rgba(37,99,235,0.4);
 }
+.visit-btn{
+    display:inline-block;
+    margin-top:12px;
+    padding:10px 18px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.visit-btn:hover{
+    background:#1d4ed8;
+}
