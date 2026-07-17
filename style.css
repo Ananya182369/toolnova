@@ -9,3 +9,22 @@ section{padding:40px 20px}
 .card{background:#fff;padding:20px;border-radius:14px;box-shadow:0 8px 20px rgba(0,0,0,.1);transition:.3s}
 .card:hover{transform:translateY(-6px)}
 footer{text-align:center;padding:20px;background:#111;color:#fff;margin-top:40px}
+.search-section{
+    text-align:center;
+    margin:40px 0;
+}
+
+#searchInput{
+    width:60%;
+    max-width:600px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    outline:none;
+}
+
+#searchInput:focus{
+    box-shadow:0 5px 25px rgba(37,99,235,0.4);
+}
