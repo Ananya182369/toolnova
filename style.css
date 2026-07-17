@@ -117,3 +117,34 @@ button:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
+.hero{
+  background: linear-gradient(135deg,#2563eb,#7c3aed);
+  color:white;
+  padding:70px 20px;
+  border-radius:20px;
+  margin:30px auto;
+}
+
+.hero h1{
+  color:white;
+  font-size:52px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  color:#eef2ff;
+  font-size:20px;
+  margin-bottom:25px;
+}
+
+.hero button{
+  background:white;
+  color:#2563eb;
+  font-weight:bold;
+  padding:14px 30px;
+  border-radius:10px;
+}
+
+.hero button:hover{
+  background:#f3f4f6;
+}
